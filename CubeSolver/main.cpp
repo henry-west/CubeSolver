@@ -6,6 +6,11 @@
 //  Copyright (c) 2014 Henry West. All rights reserved.
 //
 
+/*
+ * driver class for cube solver, contains ai and animation
+ *
+ */
+
 #include <iostream>
 
 int main(int argc, const char * argv[])

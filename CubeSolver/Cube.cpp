@@ -6,4 +6,9 @@
 //  Copyright (c) 2014 Henry West. All rights reserved.
 //
 
+/*
+ * main object for cube
+ * contains sides, squares
+ */
+
 #include "Cube.h"
