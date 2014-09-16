@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		BAE7AA4D19C89613000CCAB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA4C19C89613000CCAB4 /* main.cpp */; };
 		BAE7AA4F19C89613000CCAB4 /* CubeSolver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BAE7AA4E19C89613000CCAB4 /* CubeSolver.1 */; };
+		BAE7AA5719C897A2000CCAB4 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA5519C897A2000CCAB4 /* Cube.cpp */; };
+		BAE7AA5A19C897C7000CCAB4 /* Side.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA5819C897C7000CCAB4 /* Side.cpp */; };
+		BAE7AA5D19C897D9000CCAB4 /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA5B19C897D9000CCAB4 /* Square.cpp */; };
+		BAE7AA6019C897E6000CCAB4 /* Corner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA5E19C897E6000CCAB4 /* Corner.cpp */; };
+		BAE7AA6319C897F0000CCAB4 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA6119C897F0000CCAB4 /* Edge.cpp */; };
+		BAE7AA6619C897FF000CCAB4 /* Center.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE7AA6419C897FF000CCAB4 /* Center.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +34,18 @@
 		BAE7AA4919C89613000CCAB4 /* CubeSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CubeSolver; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE7AA4C19C89613000CCAB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BAE7AA4E19C89613000CCAB4 /* CubeSolver.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CubeSolver.1; sourceTree = "<group>"; };
+		BAE7AA5519C897A2000CCAB4 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		BAE7AA5619C897A2000CCAB4 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		BAE7AA5819C897C7000CCAB4 /* Side.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Side.cpp; sourceTree = "<group>"; };
+		BAE7AA5919C897C7000CCAB4 /* Side.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Side.h; sourceTree = "<group>"; };
+		BAE7AA5B19C897D9000CCAB4 /* Square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		BAE7AA5C19C897D9000CCAB4 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		BAE7AA5E19C897E6000CCAB4 /* Corner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Corner.cpp; sourceTree = "<group>"; };
+		BAE7AA5F19C897E6000CCAB4 /* Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Corner.h; sourceTree = "<group>"; };
+		BAE7AA6119C897F0000CCAB4 /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
+		BAE7AA6219C897F0000CCAB4 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		BAE7AA6419C897FF000CCAB4 /* Center.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Center.cpp; sourceTree = "<group>"; };
+		BAE7AA6519C897FF000CCAB4 /* Center.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Center.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +79,18 @@
 			isa = PBXGroup;
 			children = (
 				BAE7AA4C19C89613000CCAB4 /* main.cpp */,
+				BAE7AA5519C897A2000CCAB4 /* Cube.cpp */,
+				BAE7AA5819C897C7000CCAB4 /* Side.cpp */,
+				BAE7AA5919C897C7000CCAB4 /* Side.h */,
+				BAE7AA5B19C897D9000CCAB4 /* Square.cpp */,
+				BAE7AA5C19C897D9000CCAB4 /* Square.h */,
+				BAE7AA5E19C897E6000CCAB4 /* Corner.cpp */,
+				BAE7AA5F19C897E6000CCAB4 /* Corner.h */,
+				BAE7AA6119C897F0000CCAB4 /* Edge.cpp */,
+				BAE7AA6219C897F0000CCAB4 /* Edge.h */,
+				BAE7AA6419C897FF000CCAB4 /* Center.cpp */,
+				BAE7AA6519C897FF000CCAB4 /* Center.h */,
+				BAE7AA5619C897A2000CCAB4 /* Cube.h */,
 				BAE7AA4E19C89613000CCAB4 /* CubeSolver.1 */,
 			);
 			path = CubeSolver;
@@ -117,6 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE7AA6319C897F0000CCAB4 /* Edge.cpp in Sources */,
+				BAE7AA6619C897FF000CCAB4 /* Center.cpp in Sources */,
+				BAE7AA5D19C897D9000CCAB4 /* Square.cpp in Sources */,
+				BAE7AA5A19C897C7000CCAB4 /* Side.cpp in Sources */,
+				BAE7AA5719C897A2000CCAB4 /* Cube.cpp in Sources */,
+				BAE7AA6019C897E6000CCAB4 /* Corner.cpp in Sources */,
 				BAE7AA4D19C89613000CCAB4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
