@@ -11,4 +11,8 @@
 
 #include <iostream>
 
+class Cube {
+    
+};
+
 #endif /* defined(__CubeSolver__Cube__) */

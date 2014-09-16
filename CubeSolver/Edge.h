@@ -10,5 +10,10 @@
 #define __CubeSolver__Edge__
 
 #include <iostream>
+#include "Square.h"
+
+class Side: private Square {
+
+};
 
 #endif /* defined(__CubeSolver__Edge__) */

@@ -80,6 +80,7 @@
 			children = (
 				BAE7AA4C19C89613000CCAB4 /* main.cpp */,
 				BAE7AA5519C897A2000CCAB4 /* Cube.cpp */,
+				BAE7AA5619C897A2000CCAB4 /* Cube.h */,
 				BAE7AA5819C897C7000CCAB4 /* Side.cpp */,
 				BAE7AA5919C897C7000CCAB4 /* Side.h */,
 				BAE7AA5B19C897D9000CCAB4 /* Square.cpp */,
@@ -90,7 +91,6 @@
 				BAE7AA6219C897F0000CCAB4 /* Edge.h */,
 				BAE7AA6419C897FF000CCAB4 /* Center.cpp */,
 				BAE7AA6519C897FF000CCAB4 /* Center.h */,
-				BAE7AA5619C897A2000CCAB4 /* Cube.h */,
 				BAE7AA4E19C89613000CCAB4 /* CubeSolver.1 */,
 			);
 			path = CubeSolver;

@@ -11,4 +11,8 @@
 
 #include <iostream>
 
+class Side {
+
+};
+
 #endif /* defined(__CubeSolver__Side__) */

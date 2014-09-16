@@ -11,4 +11,8 @@
 
 #include <iostream>
 
+class Square {
+    
+};
+
 #endif /* defined(__CubeSolver__Square__) */

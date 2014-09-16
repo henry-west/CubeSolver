@@ -10,5 +10,10 @@
 #define __CubeSolver__Center__
 
 #include <iostream>
+#include "Square.h"
+
+class Center: private Square {
+    
+};
 
 #endif /* defined(__CubeSolver__Center__) */

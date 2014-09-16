@@ -10,5 +10,10 @@
 #define __CubeSolver__Corner__
 
 #include <iostream>
+#include "Square.h"
+
+class Corner: private Square {
+
+};
 
 #endif /* defined(__CubeSolver__Corner__) */
