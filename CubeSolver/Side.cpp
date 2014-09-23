@@ -12,3 +12,6 @@
  */
 
 #include "Side.h"
+
+using namespace std;
+

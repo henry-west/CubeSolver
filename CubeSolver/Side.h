@@ -10,8 +10,22 @@
 #define __CubeSolver__Side__
 
 #include <iostream>
+#include <vector>
+#include "Square.h"
+
+using namespace std;
 
 class Side {
+private:
+    vector<Square> squares;
+    struct Row {
+        vector<Square> rowParts;
+        Row (int dir, Square end) {
+
+        }
+    };
+public:
+    vector<Square> getSquares();
 
 };
 

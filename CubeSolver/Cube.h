@@ -12,7 +12,13 @@
 #include <iostream>
 
 class Cube {
-    
+private:
+    int completionState;
+public:
+    Cube(Cube* original);
+    Cube();
+
+
 };
 
 #endif /* defined(__CubeSolver__Cube__) */

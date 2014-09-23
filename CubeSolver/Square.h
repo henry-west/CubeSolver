@@ -12,7 +12,9 @@
 #include <iostream>
 
 class Square {
-    
+
+public:
+    int position;
 };
 
 #endif /* defined(__CubeSolver__Square__) */
